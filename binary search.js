@@ -65,6 +65,7 @@ class BST {
     return currNode.value;
   }
 
+  //Traverse tree to see if it contains passed in value
   contains(value) {
     let currNode = this.root;
 
